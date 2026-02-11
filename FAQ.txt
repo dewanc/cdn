@@ -1,1 +1,5 @@
-d
+ip route del default
+ip route add default via 10.102.171.1 dev ztfl6m6u7y
+
+curl ifconfig.me
+
